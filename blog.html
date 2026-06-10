@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-raw-concrete">
+    <title>화곡 셔츠룸 블로그 | 마포 AI트렌드 셔츠룸 이야기</title>
+    <meta name="description" content="화곡 셔츠룸에서 경험한 진짜 이야기. 마포 AI트렌드 셔츠룸의 분위기, 시스템, 그리고 형들이 웃는 이유. 전화 010-6279-0862">
+    <meta name="keywords" content="화곡 셔츠룸, 마포 셔츠룸, AI트렌드, 화곡룸 후기, 셔츠룸 블로그, 마포유흥, 화곡 유흥">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://sf-t3-1779642675702-416.vercel.app/blog">
+    <meta property="og:title" content="화곡 셔츠룸 블로그 | 형들이 알려주는 셔츠룸 이야기">
+    <meta property="og:description" content="화곡 셔츠룸, 마포 AI트렌드 감성의 모든 것. 거친 콘크리트와 로우한 감성, 직접 느껴본 후기">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sf-t3-1779642675702-416.vercel.app/blog">
+    <meta property="og:locale" content="ko_KR">
+    <meta property="og:site_name" content="화곡 셔츠룸">
+    <meta name="twitter:card" content="summary_large_image">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial Black', 'Impact', 'Helvetica Neue', sans-serif;
+            background: #1a1a1a;
+            color: #d4d4d4;
+            line-height: 1.5;
+            letter-spacing: 0.5px;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Arial Black', 'Impact', sans-serif;
+            text-transform: uppercase;
+            color: #e0e0e0;
+            margin-bottom: 0.5em;
+            letter-spacing: -0.5px;
+        }
+        a {
+            color: #ff6b35;
+            text-decoration: none;
+            border-bottom: 2px solid transparent;
+            transition: all 0.2s ease;
+        }
+        a:hover {
+            color: #ffaa00;
+            border-bottom-color: #ff6b35;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        .site-wrap {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        section {
+            padding: 60px 20px;
+            border-bottom: 3px solid #333;
+        }
+        section:nth-child(odd) {
+            background: #222;
+        }
+        section:nth-child(even) {
+            background: #1e1e1e;
+        }
+        header {
+            background: #111;
+            padding: 20px 0;
+            border-bottom: 4px solid #ff6b35;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .logo {
+            font-size: 2.2rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            color: #ff6b35;
+            display: inline-block;
+            letter-spacing: -1px;
+        }
+        .logo span {
+            color: #fff;
+            display: block;
+            font-size: 0.5rem;
+            letter-spacing: 3px;
+            margin-top: -5px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        nav a {
+            color: #ccc;
+            font-size: 0.9rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: 8px 12px;
+            border: 2px solid transparent;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            color: #ff6b35;
+            border-color: #ff6b35;
+        }
+        .hamburger-menu {
+            display: none;
+            cursor: pointer;
+            font-size: 2rem;
+            color: #ff6b35;
+            background: none;
+            border: none;
+            padding: 5px 10px;
+        }
+        .tel-link {
+            display: inline-block;
+            background: #ff6b35;
+            color: #111 !important;
+            padding: 12px 24px;
+            font-weight: 900;
+            font-size: 1.2rem;
+            border: none !important;
+            transition: 0.3s;
+        }
+        .tel-link:hover {
+            background: #ffaa00;
+            transform: scale(1.05);
+        }
+        @media (max-width: 768px) {
+            .hamburger-menu {
+                display: block;
+            }
+            nav ul {
+                display: none;
+                flex-direction: column;
+                background: #111;
+                padding: 20px;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                gap: 15px;
+            }
+            nav ul.active {
+                display: flex;
+            }
+            .logo {
+                font-size: 1.6rem;
+            }
+            section {
+                padding: 40px 15px;
+            }
+        }
+        .blog-card {
+            background: #2a2a2a;
+            padding: 40px;
+            border-left: 6px solid #ff6b35;
+            margin: 30px 0;
+            box-shadow: 8px 8px 0 #000;
+        }
+        .blog-card h2 {
+            font-size: 2rem;
+            color: #ff6b35;
+        }
+        .blog-card .meta {
+            font-size: 0.8rem;
+            color: #888;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .blog-card p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 1.2em;
+        }
+        .blog-card .highlight {
+            background: #333;
+            padding: 10px 20px;
+            border-left: 4px solid #ffaa00;
+            font-style: italic;
+            color: #ffaa00;
+        }
+        .cta-box {
+            background: #111;
+            padding: 30px;
+            text-align: center;
+            border: 3px solid #ff6b35;
+            margin-top: 40px;
+        }
+        .cta-box h3 {
+            font-size: 1.8rem;
+            color: #ffaa00;
+        }
+        .cta-box .tel-link {
+            margin-top: 20px;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="site-wrap" style="display: flex; justify-content: space-between; align-items: center;">
+            <div class="logo">
+                화곡 셔츠룸
+                <span>마포 AI트렌드 · 브루탈 감성</span>
+            </div>
+            <button class="hamburger-menu" onclick="document.querySelector('nav ul').classList.toggle('active')">☰</button>
+            <nav>
+                <ul>
+                    <li><a href="/">홈</a></li>
+                    <li><a href="/about">소개</a></li>
+                    <li><a href="/gallery">갤러리</a></li>
+                    <li><a href="/blog">블로그</a></li>
+                    <li><a href="/contact">문의</a></li>
+                    <li><a href="tel:010-6279-0862" class="tel-link">010-6279-0862</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="site-wrap">
+        <section>
+            <h1 style="font-size: 3rem; text-align: center; margin-bottom: 10px;">화곡 셔츠룸 블로그</h1>
+            <p style="text-align: center; color: #888; font-size: 1.1rem;">형, 여기 진짜 이야기가 있어. 거친 콘크리트 속에 숨은 AI트렌드 감성.</p>
+        </section>
+
+        <section>
+            <div class="blog-card">
+                <div class="meta">2025년 2월 24일 · 마포 핫플 탐방기</div>
+                <h2>화곡 셔츠룸, 형이 직접 가보고 쓴 솔직 후기</h2>
+                <p>야, 형. 요즘 마포 쪽에 핫하다는 셔츠룸 있다며? 내가 원래 이런 데 잘 안 가는데, 주변에서 "화곡 셔츠룸 한 번 가봐, 분위기 미쳤다" 그러길래. 솔직히 '셔츠룸이 뭐 어때서?' 싶었거든. 근데 형, 생각이 완전 바뀌었어.</p>
+                <p>처음 들어갔을 때부터 느낌이 달랐어. 거친 콘크리트 벽에 로우한 조명, 그리고 공간 곳곳에 숨겨진 AI 감성. 뭐랄까, 마치 브루탈리즘 건축 전시회에 온 기분? 근데 전시회처럼 딱딱하지 않고, 오히려 편하게 술 한잔 하기 좋더라고. 형들이 인정한 공간이라는 말이 괜히 나온 게 아니야.</p>
+                <div class="highlight">"진짜, 여기 분위기는 말로 설명이 안 돼. 직접 느껴봐야 해."</div>
+                <p>시스템도 깔끔해. 직원분들도 친절하고, 가격도 합리적이야. 나처럼 처음 가는 사람도 부담 없이 즐길 수 있어. 특히 룸마다 콘셉트가 다르다는 게 포인트. 나는 '로우 콘크리트' 룸에서 시간 보냈는데, 진짜 힐링 그 자체였어. 형, 여기 한 번 가봐. 후회 안 해.</p>
+                <p style="margin-top: 30px;"><strong>📍 위치:</strong> 마포구 화곡동 (자세한 주소는 전화로 물어봐, 형!)<br>
+                <strong>📞 연락처:</strong> <a href="tel:010-6279-0862" style="font-weight: bold; color: #ff6b35;">010-6279-0862</a></p>
+            </div>
+
+            <div class="cta-box">
+                <h3>형, 지금 전화해! 예약은 빠를수록 좋아</h3>
+                <a href="tel:010-6279-0862" class="tel-link">📞 010-6279-0862</a>
+                <p style="margin-top: 15px; color: #aaa;">"화곡 셔츠룸, 형들만 아는 그곳"</p>
+            </div>
+        </section>
+
+        <section style="text-align: center; border-bottom: none;">
+            <p style="font-size: 0.9rem; color: #666;">© 2025 화곡 셔츠룸 · 마포 AI트렌드 · All rights reserved. | <a href="tel:010-6279-0862">010-6279-0862</a></p>
+        </section>
+    </main>
+
+    <script>
+        // 모바일 메뉴 토글
+        document.querySelector('.hamburger-menu').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
